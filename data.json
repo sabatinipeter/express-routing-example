@@ -1,44 +1,245 @@
 {
   "clients": [
     {
-      "case": "MR-0001-HHA",
-			"name": "Paul Doe",
+      "name": "Paul Doe",
       "location": "123 Main St Ann Arbor",
       "dob": "1966-06-06",
-      "functional_limitations" : ["Hearing","Endurance"],
-			"activities_permitted": ["Exercise Prescribed", "Partial Weight Bearing", "Crutches"],
-			"alergies": [],
-			"nutritional": [],
-			"safety": [],
-			"contacts": [
-				{
-					"name": "Betty Rubble",
-					"relation": "Spouse",
-					"phones": [
-						{"type": "home", "number": "222-222-1212"},
-						{"type": "mobile", "number": "222-222-1212"},
-						{"type": "office", "number": "222-222-1212"}
-					]
-				}
-			]
-    },
-    {
-      "case": "MR-0001-HHA",
-			"name": "Jim Green",
-			"location": "466 State St Ann Arbor",
-			"dob": "1966-06-06"
-    },
-    {
-      "case": "MR-0001-HHA",
-			"name": "Harry Potter",
-			"location": "2688 Stone St Ann Arbor",
-			"dob": "1966-06-06"
-    },
-    {
-      "case": "MR-0001-HHA",
-			"name": "Harry Potter",
-			"location": "2688 Stone St Ann Arbor",
-			"dob": "1966-06-06"
+      "contacts": [
+        {
+          "name": "Betty Rubble",
+          "relation": "Spouse",
+          "phones": [
+            {
+              "type": "home",
+              "number": "222-222-1212"
+            },{
+              "type": "mobile",
+              "number": "222-222-1212"
+            },{
+              "type": "office",
+              "number": "222-222-1212"
+            }
+          ]
+        }
+      ],
+      "cases": [
+        {
+            "_id": "MR-0001-HHA",
+            "reports": [],
+            "shifts": [
+      				{
+      					"start_time": "2016-11-12T07:00:00.000Z",
+      					"end_time": "2016-11-12T19:00:00.000Z",
+      					"type": "Regular",
+      					"status": "Open",
+      					"provider": "Tim Riddle",
+                "assessments": [
+                  {
+          					"type": "Vital",
+          					"timestamp": "2016-06-02T09:00:00.000Z",
+          					"temperature": "99.9",
+          					"location": "Temporal",
+          					"instructions": "",
+          					"comments": [
+          						{
+          							"description": "Comment 1",
+          							"timestamp": "2016-11-12T07:00:00.000Z"
+          						},
+          						{
+          							"description": "Comment 2",
+          							"timestamp": "2016-11-12T07:00:00.000Z"
+          						}
+          					]
+          				}
+                ],
+                "tasks": [
+                  {
+          					"name": "An overdue task",
+          					"start_time": "9:30 AM",
+          					"completion_time": "",
+          					"status": "Open",
+          					"reason": ""
+          				},{
+          					"name": "A copy of original task ... original is attempted now",
+          					"start_time": "9:40 AM",
+          					"completion_time": "",
+          					"reason": "Client Unavailable",
+          					"status": "Attempted"
+          				},{
+          					"name": "Prepare Meal",
+          					"start_time": "10:10 AM",
+          					"completion_time": "",
+          					"status": "Open",
+          					"reason": ""
+          				},{
+          					"name": "Observe for safety concerns",
+          					"start_time": "10:30 AM",
+          					"completion_time": "",
+          					"status": "Open",
+          					"reason": ""
+          				},{
+          					"name": "Offer fluids",
+          					"start_time": "10:40 AM",
+          					"completion_time": "",
+          					"status": "Open",
+          					"reason": ""
+          				},{
+          					"name": "Other task",
+          					"start_time": "10:50 AM",
+          					"completion_time": "",
+          					"status": "Open",
+          					"reason": ""
+          				}, {
+          					"name": "View Care Plan (Form 485 & 487)",
+          					"start_time": "",
+          					"completion_time": "8:45 AM",
+          					"status": "Completed",
+          					"reason": ""
+          				}, {
+          					"name": "View Case Notes",
+          					"start_time": "",
+          					"completion_time": "8:55 AM",
+          					"status": "Completed",
+          					"reason": ""
+          				}, {
+          					"name": "View Previous Shift Activity",
+          					"start_time": "",
+          					"completion_time": "8:58 AM",
+          					"status": "Completed",
+          					"reason": ""
+          				}, {
+          					"name": "A completed task",
+          					"start_time": "9:00 AM",
+          					"completion_time": "9:05 AM",
+          					"status": "Completed",
+          					"reason": "Per Shift"
+          				}, {
+          					"name": "A task to be deferred",
+          					"start_time": "9:20 AM",
+          					"completion_time": "9:22 AM",
+          					"status": "Deferred",
+          					"reason": "Insuficient Supplies"
+          				}, {
+          					"name": "This is the original task, attempted task",
+          					"start_time": "9:40 AM",
+          					"completion_time": "9:35 AM",
+          					"status": "Attempted",
+          					"reason": "Client Unavailable"
+          				}
+                ]
+      				},{
+      					"start_time": "2016-05-25T12:30:00.000Z",
+      					"end_time": "2016-11-12T21:00:00.000Z",
+      					"type": "Regular",
+      					"status": "Closed",
+      					"provider": "Tom Riddle",
+                "assessments": [
+                  {
+          					"type": "Intake/Output",
+          					"timestamp": "2016-05-25T13:35:00.000Z",
+          					"status": "Performed"
+          				},{
+          					"type": "Neurological Assessment",
+          					"timestamp": "2016-05-25T13:35:00.000Z",
+          					"status": "Performed"
+          				}
+                ],
+                "tasks": []
+      				},{
+      					"start_time": "2016-05-22T07:00:00.000Z",
+      					"end_time": "2016-05-22T19:00:00.000Z",
+      					"type": "Visit",
+      					"status": "Closed",
+      					"provider": "Adam Smith",
+                "assessments": [
+                  {
+          					"type": "Head & Musculo-Skeletal",
+          					"timestamp": "2016-05-22T14:35:00.000Z",
+          					"status": "Performed"
+          				}
+                ],
+                "tasks": []
+      				}
+      			],
+            "care_plan" : {
+              "goals": [],
+              "medical_details": {
+                "functional_limitations" : ["Hearing","Endurance"],
+          			"activities_permitted": ["Exercise Prescribed", "Partial Weight Bearing", "Crutches"],
+          			"alergies": [],
+          			"nutritional": [],
+          			"safety": []
+              },
+              "orders": [],
+              "medications": [
+                {
+                  "description": "Prevacid (3mg/ml/1.6ml x/po/Twice a day 9a/9p)",
+                  "schedule": "Daily at 1 PM 3PM 9PM"
+                },
+                {
+                  "description": "Ensure/Chocolate/up to 4 cans/PO/OTC/PRN",
+                  "schedule": "As Needed"
+                }
+              ]
+            }
+        }
+      ]
+    },{
+      "name": "Jim Green",
+      "location": "466 State St Ann Arbor",
+      "dob": "1946-12-16",
+      "contacts": [],
+      "cases": [
+        {
+            "_id": "MR-0002-HHA",
+            "reports": [],
+            "shifts": [
+              {
+                "start_time": "2016-11-12T02:00:00.000Z",
+                "end_time": "2016-11-12T06:00:00.000Z",
+                "type": "Visit",
+                "status": "Closed",
+                "provider": "Tim Riddle",
+                "assessments": [],
+                "tasks": []
+              }
+      			],
+            "care_plan" : {
+              "goals": [],
+              "medical_details": {},
+              "orders": [],
+              "medications": []
+            }
+        }
+      ]
+    },{
+      "name": "Harry Potter",
+      "location": "2688 Stone St Ann Arbor",
+      "dob": "1986-05-12",
+      "contacts": [],
+      "cases": [
+        {
+            "_id": "MR-0003-HHA",
+            "reports": [],
+            "shifts": [
+              {
+                "start_time": "2016-06-02T08:00:00.000Z",
+      					"end_time": "2016-06-02T20:00:00.000Z",
+      					"type": "Visit",
+      					"status": "In-Progress",
+      					"provider": "Tim Riddle",
+                "assessments": [],
+                "tasks": []
+              }
+      			],
+            "care_plan" : {
+              "goals": [],
+              "medical_details": {},
+              "orders": [],
+              "medications": []
+            }
+        }
+      ]
     }
   ]
 }
