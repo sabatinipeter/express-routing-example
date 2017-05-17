@@ -1,0 +1,19 @@
+{
+  "name": "express-routing-example",
+  "version": "1.0.0",
+  "description": "Example API built using Express routers",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Peter Sabatini",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "eslint": "^2.4.0",
+    "eslint-config-airbnb": "^6.1.0",
+    "nodemon": "^1.9.1"
+  }
+}

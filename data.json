@@ -1,0 +1,44 @@
+{
+  "clients": [
+    {
+      "case": "MR-0001-HHA",
+			"name": "Paul Doe",
+      "location": "123 Main St Ann Arbor",
+      "dob": "1966-06-06",
+      "functional_limitations" : ["Hearing","Endurance"],
+			"activities_permitted": ["Exercise Prescribed", "Partial Weight Bearing", "Crutches"],
+			"alergies": [],
+			"nutritional": [],
+			"safety": [],
+			"contacts": [
+				{
+					"name": "Betty Rubble",
+					"relation": "Spouse",
+					"phones": [
+						{"type": "home", "number": "222-222-1212"},
+						{"type": "mobile", "number": "222-222-1212"},
+						{"type": "office", "number": "222-222-1212"}
+					]
+				}
+			]
+    },
+    {
+      "case": "MR-0001-HHA",
+			"name": "Jim Green",
+			"location": "466 State St Ann Arbor",
+			"dob": "1966-06-06"
+    },
+    {
+      "case": "MR-0001-HHA",
+			"name": "Harry Potter",
+			"location": "2688 Stone St Ann Arbor",
+			"dob": "1966-06-06"
+    },
+    {
+      "case": "MR-0001-HHA",
+			"name": "Harry Potter",
+			"location": "2688 Stone St Ann Arbor",
+			"dob": "1966-06-06"
+    }
+  ]
+}
