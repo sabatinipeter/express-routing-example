@@ -1,0 +1,265 @@
+{
+  "clients": [
+    {
+      "id": 123,
+      "first_name": "Paul",
+      "middle_name": "",
+      "last_name": "Doe",
+      "birthdate": "1966-06-06T00:00:00.000Z",
+      "address": {
+        "address_line_1": "123 Main St",
+        "address_line_2": "",
+        "city": "Ann Arbor",
+        "zip_code": "48105"
+      },
+      "contacts": [
+        {
+          "name": "Betty Rubble",
+          "relationship": "Spouse",
+          "home_phone": "734-989-3489",
+          "mobile_phone": "734-452-4567",
+          "work_phone": "734-363-4567",
+          "email": "betty_rubble@testy.com"
+        },{
+          "name": "Paul Doe",
+          "relationship": "Son",
+          "home_phone": "",
+          "mobile_phone": "734-452-1267",
+          "work_phone": "",
+          "email": "paul_doe@testy.com"
+        }
+      ],
+      "cases": [
+        {
+            "id": "324654567",
+            "case_type": "",
+            "notes": [
+              {
+                "note": "Patient seems really happy today",
+                "created_dtm" : "2017-06-02T07:00:00.000Z"
+              },
+              {
+                "note": "Patient is not collaborating",
+                "created_dtm" : "2017-05-30T05:00:00.000Z"
+              }
+            ],
+            "incident_reports": [
+              {
+                "incident_time" : "2016-06-16T14:12:00.000Z",
+                "incident_category" : "Medication Error",
+                "incident_subcategory" : "",
+                "impacted_persons" : "",
+                "description" : "Description goes here",
+                "incident_location" : "",
+                "action_taken" : "",
+                "rpeorted_to_office" : "",
+                "reported_by" : "Tom Riddle",
+                "investigation" : "",
+                "status" : ""
+              },{
+                "incident_time" : "2016-05-25T13:13:00.000Z",
+                "incident_category" : "Fall - Witnessed",
+                "incident_subcategory" : "",
+                "impacted_persons" : "",
+                "description" : "Description goes here",
+                "incident_location" : "",
+                "action_taken" : "",
+                "rpeorted_to_office" : "",
+                "reported_by" : "Tom Riddle",
+                "investigation" : "",
+                "status" : ""
+              },{
+                "incident_time" : "2016-05-22T13:32:00.000Z",
+                "incident_category" : "Other - G Tube Out",
+                "incident_subcategory" : "",
+                "impacted_persons" : "",
+                "description" : "Description goes here",
+                "incident_location" : "",
+                "action_taken" : "",
+                "rpeorted_to_office" : "",
+                "reported_by" : "Tom Riddle",
+                "investigation" : "",
+                "status" : ""
+              }
+            ],
+            "seizure_reports": [
+              {
+                "time" : "2016-05-25T14:12:00.000Z",
+                "activity_prior_to_seizure" : "",
+                "duration_minutes" : "",
+                "duration_seconds" : "",
+                "activity_during_seize" : "",
+                "describe_movements" : "",
+                "describe_postural_changes" : "",
+                "descirbe_eye_deviation" : "",
+                "activity_after_seizure" : "",
+                "other_activity_after_seizure" : "",
+                "notes" : "",
+                "reported_by" : "Tom Riddle",
+                "status" : "Open"
+              },{
+                "time" : "2016-05-22T13:32:00.000Z",
+                "activity_prior_to_seizure" : "",
+                "duration_minutes" : "",
+                "duration_seconds" : "",
+                "activity_during_seize" : "",
+                "describe_movements" : "",
+                "describe_postural_changes" : "",
+                "descirbe_eye_deviation" : "",
+                "activity_after_seizure" : "",
+                "other_activity_after_seizure" : "",
+                "notes" : "",
+                "reported_by" : "Tom Riddle",
+                "status" : "Open"
+              },{
+                "time" : "2016-05-22T13:32:00.000Z",
+                "activity_prior_to_seizure" : "",
+                "duration_minutes" : "",
+                "duration_seconds" : "",
+                "activity_during_seize" : "",
+                "describe_movements" : "",
+                "describe_postural_changes" : "",
+                "descirbe_eye_deviation" : "",
+                "activity_after_seizure" : "",
+                "other_activity_after_seizure" : "",
+                "notes" : "",
+                "reported_by" : "Adam Smith",
+                "status" : "Closed"
+              }
+            ],
+            "care_plan": {
+              "goals": [
+                {
+                  "goal_name" : "Goal # 1",
+                  "comment" : "",
+                  "active" : "true"
+                },
+                {
+                  "goal_name" : "Goal # 2",
+                  "comment" : "The Second Line",
+                  "active" : "false"
+                },
+                {
+                  "goal_name" : "Goal # 3",
+                  "comment" : "",
+                  "active" : "true"
+                }
+              ],
+              "actions": [
+                {
+                  "action_type" : "Order",
+                  "order_type": "Daily",
+                  "type": "",
+                  "subtype": "",
+                  "type_description": "Daily, at 12:30",
+                  "description": "order 02",
+                  "start_date": "",
+                  "end_date": "",
+                  "repetition_type": "THIS IS A HUGE JSON STRUCTURE",
+                  "priority": ""
+                },{
+                  "action_type" : "Medication",
+                  "order_type": "PRN",
+                  "type": "",
+                  "subtype": "",
+                  "type_description": "PRN",
+                  "description": "",
+                  "start_date": "",
+                  "end_date": "",
+                  "repetition_type": "THIS IS A HUGE JSON STRUCTURE",
+                  "priority": ""
+                },{
+                  "action_type" : "Medication",
+                  "order_type": "Daily",
+                  "type": "",
+                  "subtype": "",
+                  "type_description": "Daily, at 1:30 AM",
+                  "description": "",
+                  "start_date": "",
+                  "end_date": "",
+                  "repetition_type": "THIS IS A HUGE JSON STRUCTURE",
+                  "priority": ""
+                }
+              ],
+              "medical_detail": {
+                "functional_limitations" : "Hearing, Endurance",
+          			"activiteis_permitted": "Exercise Prescribed, Partial Weight Bearing, Crutches",
+          			"allergies": "",
+          			"nutrition": "",
+          			"safty_measures": ""
+              }
+            },
+            "shifts": [
+      				{
+      					"assigned_user_id" : "Tim Riddle",
+                "status" : "Open",
+                "start_date" : "2016-11-12T07:00:00.000Z",
+                "end_date" : "2016-11-12T19:00:00.000Z",
+                "actual_start_date" : "",
+                "actual_end_date" : "",
+                "override_start_date" : "",
+                "override_end_date" : "",
+                "override_reason" : "",
+                "shift_type" : "Regular",
+                "agree_to_rate" : "",
+                "staff_signature" : "",
+                "client_signature" : "",
+                "client_unable_to_sign " : "",
+                "client_unanle_to_sign_reason" : "",
+                "duration" : "",
+                "notes": [],
+                "expenses": [
+                  {
+                    "amount" : "",
+                    "mileage_amount" : "",
+                    "mileage_unit_price" : "",
+                    "type" : "",
+                    "date" : "",
+                    "notes" : ""
+                  }
+                ]
+      				},{
+      					"assigned_user_id" : "Tom Riddle",
+                "status" : "Closed",
+                "start_date" : "2016-05-25T12:30:00.000Z",
+                "end_date" : "2016-11-12T21:00:00.000Z",
+                "actual_start_date" : "",
+                "actual_end_date" : "",
+                "override_start_date" : "",
+                "override_end_date" : "",
+                "override_reason" : "",
+                "shift_type" : "Regular",
+                "agree_to_rate" : "",
+                "staff_signature" : "",
+                "client_signature" : "",
+                "client_unable_to_sign " : "",
+                "client_unanle_to_sign_reason" : "",
+                "duration" : "",
+                "notes": [],
+                "expenses": []
+      				},{
+      					"assigned_user_id" : "Adam Smith",
+                "status" : "Closed",
+                "start_date" : "2016-05-22T07:00:00.000Z",
+                "end_date" : "2016-05-22T19:00:00.000Z",
+                "actual_start_date" : "",
+                "actual_end_date" : "",
+                "override_start_date" : "",
+                "override_end_date" : "",
+                "override_reason" : "",
+                "shift_type" : "Visit",
+                "agree_to_rate" : "",
+                "staff_signature" : "",
+                "client_signature" : "",
+                "client_unable_to_sign " : "",
+                "client_unanle_to_sign_reason" : "",
+                "duration" : "",
+                "notes": [],
+                "expenses": []
+      				}
+      			]
+        }
+      ]
+    }
+  ]
+}
