@@ -8,7 +8,7 @@
       "birthdate": "1966-06-06T00:00:00.000Z",
       "address": {
         "address_line_1": "531 WAMBOLD RD",
-        "address_line_2": "",
+        "address_line_2": "APT 105",
         "park_name": "Park123",
         "county": "PENNSYLVANIA",
         "city": "SOUDERTON",
@@ -36,7 +36,7 @@
       "cases": [
         {
             "id": "324654567",
-            "case_type": "",
+            "case_type": "type 3",
             "notes": [
               {
                 "note": "Patient seems really happy today",
@@ -51,7 +51,7 @@
               {
                 "incident_time" : "2016-06-16T14:12:00.000Z",
                 "incident_category" : "Medication Error",
-                "incident_subcategory" : "",
+                "incident_subcategory" : "Human Element Accident",
                 "impacted_persons" : "Paul Doe",
                 "description" : "He hurts a lot",
                 "incident_location" : "Bed",
@@ -63,7 +63,7 @@
               },{
                 "incident_time" : "2016-05-25T13:13:00.000Z",
                 "incident_category" : "Fall - Witnessed",
-                "incident_subcategory" : "",
+                "incident_subcategory" : "Accident",
                 "impacted_persons" : "James Doe",
                 "description" : "Not Serious",
                 "incident_location" : "Stair",
@@ -75,14 +75,14 @@
               },{
                 "incident_time" : "2016-05-22T13:32:00.000Z",
                 "incident_category" : "Other - G Tube Out",
-                "incident_subcategory" : "",
+                "incident_subcategory" : "Accident",
                 "impacted_persons" : "Marry Doe",
                 "description" : "Description goes here",
                 "incident_location" : "Kitchen",
                 "action_taken" : "Deep Breath",
                 "reported_to_office" : "No",
                 "reported_by" : "Tom Riddle",
-                "investigation" : "",
+                "investigation" : "Yes",
                 "status" : "Open"
               }
             ],
@@ -112,7 +112,7 @@
                 "descirbe_eye_deviation" : "look at everywhere",
                 "activity_after_seizure" : "sob",
                 "other_activity_after_seizure" : "drool",
-                "notes" : "",
+                "notes" : "he seems unhappy",
                 "reported_by" : "Tom Riddle",
                 "status" : "Open"
               },{
@@ -205,7 +205,7 @@
                 "override_end_date" : "",
                 "override_reason" : "",
                 "shift_type" : "Regular",
-                "agree_to_rate" : "",
+                "agree_to_rate" : "80%",
                 "staff_signature" : "Tim Riddle",
                 "client_signature" : "client 1",
                 "client_unable_to_sign " : "",
@@ -233,7 +233,7 @@
                 "override_end_date" : "2017-01-12T21:00:00.000Z",
                 "override_reason" : "surgery",
                 "shift_type" : "Regular",
-                "agree_to_rate" : "",
+                "agree_to_rate" : "90%",
                 "staff_signature" : "Tom Riddle",
                 "client_signature" : "Paul Doe",
                 "client_unable_to_sign " : "",
@@ -261,7 +261,7 @@
                 "override_end_date" : "2017-11-22T19:00:00.000Z",
                 "override_reason" : "client request",
                 "shift_type" : "Visit",
-                "agree_to_rate" : "",
+                "agree_to_rate" : "50%",
                 "staff_signature" : "Adam Smith",
                 "client_signature" : "",
                 "client_unable_to_sign " : "Yes",
@@ -291,7 +291,7 @@
       "birthdate": "1946-03-09T00:00:00.000Z",
       "address": {
         "address_line_1": "123 MAIN STREET",
-        "address_line_2": "",
+        "address_line_2": "Mailbox #17 APT 205",
         "park_name": "Ann Arbor Parking Lot",
         "county": "WASHTENAW",
         "city": "ANN ARBOR",
@@ -341,7 +341,7 @@
                 "action_taken" : "Take another Medicine",
                 "reported_to_office" : "Yes",
                 "reported_by" : "Tom Riddle",
-                "investigation" : "",
+                "investigation" : "Yes",
                 "status" : "Closed"
               },{
                 "incident_time" : "2017-05-25T13:13:00.000Z",
@@ -353,7 +353,7 @@
                 "action_taken" : "lie down",
                 "reported_to_office" : "No",
                 "reported_by" : "Tom Riddle",
-                "investigation" : "",
+                "investigation" : "No",
                 "status" : "Open"
               },{
                 "incident_time" : "2016-07-22T13:32:00.000Z",
@@ -365,7 +365,7 @@
                 "action_taken" : "call help",
                 "reported_to_office" : "Yes",
                 "reported_by" : "Tom Riddle",
-                "investigation" : "",
+                "investigation" : "Yes",
                 "status" : "Open"
               }
             ],
@@ -381,7 +381,7 @@
                 "descirbe_eye_deviation" : "Fluttering",
                 "activity_after_seizure" : "Eye Still Fluttering a Little",
                 "other_activity_after_seizure" : "Mouth Fluttering",
-                "notes" : "",
+                "notes" : "Patient obssessed with his eye Fluttering",
                 "reported_by" : "Tom Riddle",
                 "status" : "Open"
               },{
@@ -395,7 +395,7 @@
                 "descirbe_eye_deviation" : "show whites",
                 "activity_after_seizure" : "Drooling",
                 "other_activity_after_seizure" : "Eye Fluttering",
-                "notes" : "",
+                "notes" : "he wants to eat hamburger",
                 "reported_by" : "Tom Riddle",
                 "status" : "Closed"
               },{
@@ -408,7 +408,7 @@
                 "describe_postural_changes" : "no",
                 "descirbe_eye_deviation" : "Eye Smacking",
                 "activity_after_seizure" : "crying",
-                "other_activity_after_seizure" : "",
+                "other_activity_after_seizure" : "no",
                 "notes" : "No",
                 "reported_by" : "Adam Smith",
                 "status" : "Closed"
@@ -454,7 +454,7 @@
                   "start_date": "2016-01-01T00:00:00.000Z",
                   "end_date": "2016-12-01T00:00:00.000Z",
                   "repetition_type": "THIS IS A HUGE JSON STRUCTURE",
-                  "priority": ""
+                  "priority": "2"
                 },{
                   "action_type" : "Medication",
                   "order_type": "Daily",
@@ -488,7 +488,7 @@
                 "override_end_date" : "2015-11-12T07:00:00.000Z",
                 "override_reason" : "client was taking incompatible madicine",
                 "shift_type" : "Regular",
-                "agree_to_rate" : "",
+                "agree_to_rate" : "95%",
                 "staff_signature" : "Tom Riddle",
                 "client_signature" : "Adam Doe",
                 "client_unable_to_sign " : "",
@@ -516,7 +516,7 @@
                 "override_end_date" : "2016-11-13T21:00:00.000Z",
                 "override_reason" : "flight cancle",
                 "shift_type" : "Regular",
-                "agree_to_rate" : "",
+                "agree_to_rate" : "85%",
                 "staff_signature" : "Tom Riddle",
                 "client_signature" : "Starburk",
                 "client_unable_to_sign " : "",
@@ -627,7 +627,7 @@
                 "action_taken" : "Cry for Help",
                 "reported_to_office" : "Yes",
                 "reported_by" : "Tom Riddle",
-                "investigation" : "",
+                "investigation" : "Yes",
                 "status" : "Closed"
               },{
                 "incident_time" : "2017-07-04T22:32:00.000Z",
@@ -654,7 +654,7 @@
                 "describe_postural_changes" : "Smacking",
                 "descirbe_eye_deviation" : "look at lips",
                 "activity_after_seizure" : "crying",
-                "other_activity_after_seizure" : "",
+                "other_activity_after_seizure" : "no",
                 "notes" : "patient seems unhappy",
                 "reported_by" : "Tom Riddle",
                 "status" : "Open"
@@ -668,7 +668,7 @@
                 "describe_postural_changes" : "keep jumping",
                 "descirbe_eye_deviation" : "Fluttering",
                 "activity_after_seizure" : "Eye blink too slow",
-                "other_activity_after_seizure" : "",
+                "other_activity_after_seizure" : "dream",
                 "notes" : "his eyes seems too red",
                 "reported_by" : "Tom Riddle",
                 "status" : "Open"
@@ -762,7 +762,7 @@
                 "override_end_date" : "2020-11-12T19:00:00.000Z",
                 "override_reason" : "patient is too capricious",
                 "shift_type" : "Regular",
-                "agree_to_rate" : "",
+                "agree_to_rate" : "99%",
                 "staff_signature" : "Tim Riddle",
                 "client_signature" : "Steven Riddle",
                 "client_unable_to_sign " : "",
@@ -790,7 +790,7 @@
                 "override_end_date" : "",
                 "override_reason" : "",
                 "shift_type" : "Regular",
-                "agree_to_rate" : "",
+                "agree_to_rate" : "89%",
                 "staff_signature" : "Tom Tom",
                 "client_signature" : "Yeah",
                 "client_unable_to_sign " : "",
@@ -818,7 +818,7 @@
                 "override_end_date" : "2019-07-05-05T07:00:00.000Z",
                 "override_reason" : "no reason",
                 "shift_type" : "Visit",
-                "agree_to_rate" : "",
+                "agree_to_rate" : "79%",
                 "staff_signature" : "Adam Adam",
                 "client_signature" : "Smith Smith",
                 "client_unable_to_sign " : "yes",
