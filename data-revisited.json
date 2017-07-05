@@ -286,13 +286,13 @@
     {
       "id": 124,
       "first_name": "Homer",
-      "middle_name": "",
+      "middle_name": "Ha",
       "last_name": "Simpson",
       "birthdate": "1946-03-09T00:00:00.000Z",
       "address": {
         "address_line_1": "123 MAIN STREET",
         "address_line_2": "",
-        "park_name": "",
+        "park_name": "Ann Arbor Parking Lot",
         "county": "WASHTENAW",
         "city": "ANN ARBOR",
         "province": "MICHIGAN",
@@ -310,16 +310,16 @@
         },{
           "name": "Bart Simpson",
           "relationship": "Son",
-          "home_phone": "",
+          "home_phone": "139-100-641",
           "mobile_phone": "734-452-1267",
-          "work_phone": "",
+          "work_phone": "159-010-716",
           "email": "bart_simpson@testy.com"
         }
       ],
       "cases": [
         {
             "id": "121312321321",
-            "case_type": "",
+            "case_type": "case type 1",
             "notes": [
               {
                 "note": "Patient seems really happy today",
@@ -332,84 +332,84 @@
             ],
             "incident_reports": [
               {
-                "incident_time" : "2016-06-16T14:12:00.000Z",
+                "incident_time" : "2017-06-16T14:12:00.000Z",
                 "incident_category" : "Medication Error",
-                "incident_subcategory" : "",
-                "impacted_persons" : "",
-                "description" : "Description goes here",
-                "incident_location" : "",
-                "action_taken" : "",
-                "reported_to_office" : "",
+                "incident_subcategory" : "sub1",
+                "impacted_persons" : "Tom Riddle",
+                "description" : "Patient seems okay",
+                "incident_location" : "Dining Hall",
+                "action_taken" : "Take another Medicine",
+                "reported_to_office" : "Yes",
                 "reported_by" : "Tom Riddle",
                 "investigation" : "",
-                "status" : ""
+                "status" : "Closed"
               },{
-                "incident_time" : "2016-05-25T13:13:00.000Z",
+                "incident_time" : "2017-05-25T13:13:00.000Z",
                 "incident_category" : "Fall - Witnessed",
-                "incident_subcategory" : "",
-                "impacted_persons" : "",
+                "incident_subcategory" : "sub 3",
+                "impacted_persons" : "James Doe",
                 "description" : "Description goes here",
-                "incident_location" : "",
-                "action_taken" : "",
-                "reported_to_office" : "",
+                "incident_location" : "playground",
+                "action_taken" : "lie down",
+                "reported_to_office" : "No",
                 "reported_by" : "Tom Riddle",
                 "investigation" : "",
-                "status" : ""
+                "status" : "Open"
               },{
-                "incident_time" : "2016-05-22T13:32:00.000Z",
+                "incident_time" : "2016-07-22T13:32:00.000Z",
                 "incident_category" : "Other - G Tube Out",
-                "incident_subcategory" : "",
-                "impacted_persons" : "",
+                "incident_subcategory" : "sub 4",
+                "impacted_persons" : "No one",
                 "description" : "Description goes here",
-                "incident_location" : "",
-                "action_taken" : "",
-                "reported_to_office" : "",
+                "incident_location" : "bathroom",
+                "action_taken" : "call help",
+                "reported_to_office" : "Yes",
                 "reported_by" : "Tom Riddle",
                 "investigation" : "",
-                "status" : ""
+                "status" : "Open"
               }
             ],
             "seizure_reports": [
               {
                 "time" : "2016-05-25T14:12:00.000Z",
-                "activity_prior_to_seizure" : "",
-                "duration_minutes" : "",
-                "duration_seconds" : "",
-                "activity_during_seize" : "",
-                "describe_movements" : "",
-                "describe_postural_changes" : "",
-                "descirbe_eye_deviation" : "",
-                "activity_after_seizure" : "",
-                "other_activity_after_seizure" : "",
+                "activity_prior_to_seizure" : "Shout Loudly",
+                "duration_minutes" : "10",
+                "duration_seconds" : "35",
+                "activity_during_seize" : "Eye Fluttering",
+                "describe_movements" : "Eye Can Not Stop Fluttering",
+                "describe_postural_changes" : "No Changes",
+                "descirbe_eye_deviation" : "Fluttering",
+                "activity_after_seizure" : "Eye Still Fluttering a Little",
+                "other_activity_after_seizure" : "Mouth Fluttering",
                 "notes" : "",
                 "reported_by" : "Tom Riddle",
                 "status" : "Open"
               },{
-                "time" : "2016-05-22T13:32:00.000Z",
-                "activity_prior_to_seizure" : "",
-                "duration_minutes" : "",
-                "duration_seconds" : "",
-                "activity_during_seize" : "",
-                "describe_movements" : "",
-                "describe_postural_changes" : "",
-                "descirbe_eye_deviation" : "",
-                "activity_after_seizure" : "",
-                "other_activity_after_seizure" : "",
+                "time" : "2016-06-22T13:32:00.000Z",
+                "activity_prior_to_seizure" : "Drool",
+                "duration_minutes" : "20",
+                "duration_seconds" : "50",
+                "activity_during_seize" : "Salivation",
+                "describe_movements" : "Keep Salivation",
+                "describe_postural_changes" : "Mouth keep Drooling",
+                "descirbe_eye_deviation" : "show whites",
+                "activity_after_seizure" : "Drooling",
+                "other_activity_after_seizure" : "Eye Fluttering",
                 "notes" : "",
                 "reported_by" : "Tom Riddle",
-                "status" : "Open"
+                "status" : "Closed"
               },{
-                "time" : "2016-05-22T13:32:00.000Z",
-                "activity_prior_to_seizure" : "",
-                "duration_minutes" : "",
-                "duration_seconds" : "",
-                "activity_during_seize" : "",
-                "describe_movements" : "",
-                "describe_postural_changes" : "",
-                "descirbe_eye_deviation" : "",
-                "activity_after_seizure" : "",
+                "time" : "2017-01-22T13:32:00.000Z",
+                "activity_prior_to_seizure" : "Incontinence",
+                "duration_minutes" : "2",
+                "duration_seconds" : "14",
+                "activity_during_seize" : "Keep Incontinence",
+                "describe_movements" : "no",
+                "describe_postural_changes" : "no",
+                "descirbe_eye_deviation" : "Eye Smacking",
+                "activity_after_seizure" : "crying",
                 "other_activity_after_seizure" : "",
-                "notes" : "",
+                "notes" : "No",
                 "reported_by" : "Adam Smith",
                 "status" : "Closed"
               }
@@ -417,18 +417,18 @@
             "care_plan": {
               "goals": [
                 {
-                  "goal_name" : "Goal # 1",
-                  "comment" : "",
+                  "goal_name" : "Goal # 21",
+                  "comment" : "comment 21",
                   "active" : "true"
                 },
                 {
-                  "goal_name" : "Goal # 2",
-                  "comment" : "The Second Line",
+                  "goal_name" : "Goal # 22",
+                  "comment" : "The Second Line 22",
                   "active" : "false"
                 },
                 {
-                  "goal_name" : "Goal # 3",
-                  "comment" : "",
+                  "goal_name" : "Goal # 23",
+                  "comment" : "comment 23",
                   "active" : "true"
                 }
               ],
@@ -436,73 +436,73 @@
                 {
                   "action_type" : "Order",
                   "order_type": "Daily",
-                  "type": "",
-                  "subtype": "",
+                  "type": "type21",
+                  "subtype": "subtype21.1",
                   "type_description": "Daily, at 12:30",
                   "description": "order 02",
-                  "start_date": "",
-                  "end_date": "",
+                  "start_date": "2017-01-01T00:00:00.000Z",
+                  "end_date": "2017-06-01T00:00:00.000Z",
                   "repetition_type": "THIS IS A HUGE JSON STRUCTURE",
-                  "priority": ""
+                  "priority": "2"
                 },{
                   "action_type" : "Medication",
                   "order_type": "PRN",
-                  "type": "",
-                  "subtype": "",
+                  "type": "type22",
+                  "subtype": "subtype22.2",
                   "type_description": "PRN",
-                  "description": "",
-                  "start_date": "",
-                  "end_date": "",
+                  "description": "medication",
+                  "start_date": "2016-01-01T00:00:00.000Z",
+                  "end_date": "2016-12-01T00:00:00.000Z",
                   "repetition_type": "THIS IS A HUGE JSON STRUCTURE",
                   "priority": ""
                 },{
                   "action_type" : "Medication",
                   "order_type": "Daily",
-                  "type": "",
-                  "subtype": "",
+                  "type": "type23",
+                  "subtype": "subtype23.3",
                   "type_description": "Daily, at 1:30 AM",
-                  "description": "",
-                  "start_date": "",
-                  "end_date": "",
+                  "description": "take medicine evey day",
+                  "start_date": "2017-02-11T12:00:00.000Z",
+                  "end_date": "2018-02-11T12:00:00.000Z",
                   "repetition_type": "THIS IS A HUGE JSON STRUCTURE",
-                  "priority": ""
+                  "priority": "1"
                 }
               ],
               "medical_detail": {
                 "functional_limitations" : "Hearing, Endurance",
           			"activiteis_permitted": "Exercise Prescribed, Partial Weight Bearing, Crutches",
-          			"allergies": "",
-          			"nutrition": "",
-          			"safty_measures": ""
+          			"allergies": "egg",
+          			"nutrition": "vitamin",
+          			"safty_measures": "not safe"
               }
             },
             "shifts": [
       				{
       					"assigned_user_id" : "Tim Riddle",
                 "status" : "Open",
-                "start_date" : "2016-11-12T07:00:00.000Z",
-                "end_date" : "2016-11-12T19:00:00.000Z",
-                "actual_start_date" : "",
-                "actual_end_date" : "",
-                "override_start_date" : "",
-                "override_end_date" : "",
-                "override_reason" : "",
+                "start_date" : "2014-11-12T07:00:00.000Z",
+                "end_date" : "2014-11-12T19:00:00.000Z",
+                "actual_start_date" : "2015-11-12T07:00:00.000Z",
+                "actual_end_date" : "2015-11-12T07:00:00.000Z",
+                "override_start_date" : "2015-11-12T07:00:00.000Z",
+                "override_end_date" : "2015-11-12T07:00:00.000Z",
+                "override_reason" : "client was taking incompatible madicine",
                 "shift_type" : "Regular",
                 "agree_to_rate" : "",
-                "staff_signature" : "",
-                "client_signature" : "",
+                "staff_signature" : "Tom Riddle",
+                "client_signature" : "Adam Doe",
                 "client_unable_to_sign " : "",
                 "client_unanle_to_sign_reason" : "",
-                "duration" : "",
-                "notes": [],
+                "duration" : "50",
+                "notes": ["hahahaha"],
                 "expenses": [
                   {
-                    "amount" : "",
-                    "mileage_amount" : "",
-                    "mileage_unit_price" : "",
-                    "type" : "",
-                    "date" : "",
-                    "notes" : ""
+                    "amount" : "3000",
+                    "mileage_amount" : "10000",
+                    "mileage_unit_price" : "0.3",
+                    "type" : "Mileage",
+                    "date" : "2015-11-12T07:00:00.000Z",
+                    "notes" : "drive to Seattle"
                   }
                 ]
       				},{
@@ -510,39 +510,55 @@
                 "status" : "Closed",
                 "start_date" : "2016-05-25T12:30:00.000Z",
                 "end_date" : "2016-11-12T21:00:00.000Z",
-                "actual_start_date" : "",
-                "actual_end_date" : "",
-                "override_start_date" : "",
-                "override_end_date" : "",
-                "override_reason" : "",
+                "actual_start_date" : "2016-05-26T12:30:00.000Z",
+                "actual_end_date" : "2016-11-13T21:00:00.000Z",
+                "override_start_date" : "2016-05-26T12:30:00.000Z",
+                "override_end_date" : "2016-11-13T21:00:00.000Z",
+                "override_reason" : "flight cancle",
                 "shift_type" : "Regular",
                 "agree_to_rate" : "",
-                "staff_signature" : "",
-                "client_signature" : "",
+                "staff_signature" : "Tom Riddle",
+                "client_signature" : "Starburk",
                 "client_unable_to_sign " : "",
                 "client_unanle_to_sign_reason" : "",
-                "duration" : "",
+                "duration" : "10",
                 "notes": [],
-                "expenses": []
+                "expenses": [
+                  {
+                  "amount" : "30",
+                  "mileage_amount" : "",
+                  "mileage_unit_price" : "",
+                  "type" : "Other",
+                  "date" : "2017-11-12T07:00:00.000Z",
+                  "notes" : "Uber"
+                }
+              ]
       				},{
-      					"assigned_user_id" : "Adam Smith",
+      					"assigned_user_id" : "Adam Middle Smith",
                 "status" : "Closed",
-                "start_date" : "2016-05-22T07:00:00.000Z",
-                "end_date" : "2016-05-22T19:00:00.000Z",
-                "actual_start_date" : "",
-                "actual_end_date" : "",
+                "start_date" : "2013-05-22T07:00:00.000Z",
+                "end_date" : "2015-05-22T19:00:00.000Z",
+                "actual_start_date" : "2013-05-22T08:00:00.000Z",
+                "actual_end_date" : "2013-05-22T08:00:00.000Z",
                 "override_start_date" : "",
                 "override_end_date" : "",
                 "override_reason" : "",
                 "shift_type" : "Visit",
                 "agree_to_rate" : "",
-                "staff_signature" : "",
-                "client_signature" : "",
+                "staff_signature" : "Adam Middle Smith",
+                "client_signature" : "Tom Riddle",
                 "client_unable_to_sign " : "",
                 "client_unanle_to_sign_reason" : "",
-                "duration" : "",
-                "notes": [],
-                "expenses": []
+                "duration" : "15",
+                "notes": ["No Notes"],
+                "expenses": [{
+                  "amount" : "700",
+                  "mileage_amount" : "",
+                  "mileage_unit_price" : "",
+                  "type" : "Reimbursement",
+                  "date" : "2017-06-14T07:00:00.000Z",
+                  "notes" : "Hotel"
+                }]
       				}
       			]
         }
