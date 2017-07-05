@@ -3,13 +3,13 @@
     {
       "id": 123,
       "first_name": "Paul",
-      "middle_name": "",
+      "middle_name": "Middle",
       "last_name": "Doe",
       "birthdate": "1966-06-06T00:00:00.000Z",
       "address": {
         "address_line_1": "531 WAMBOLD RD",
         "address_line_2": "",
-        "park_name": "",
+        "park_name": "Park123",
         "county": "PENNSYLVANIA",
         "city": "SOUDERTON",
         "province": "PENNSYLVANIA",
@@ -27,9 +27,9 @@
         },{
           "name": "Paul Doe",
           "relationship": "Son",
-          "home_phone": "",
+          "home_phone": "123-456-789",
           "mobile_phone": "734-452-1267",
-          "work_phone": "",
+          "work_phone": "137-200-275",
           "email": "paul_doe@testy.com"
         }
       ],
@@ -52,81 +52,81 @@
                 "incident_time" : "2016-06-16T14:12:00.000Z",
                 "incident_category" : "Medication Error",
                 "incident_subcategory" : "",
-                "impacted_persons" : "",
-                "description" : "Description goes here",
-                "incident_location" : "",
-                "action_taken" : "",
-                "rpeorted_to_office" : "",
+                "impacted_persons" : "Paul Doe",
+                "description" : "He hurts a lot",
+                "incident_location" : "Bed",
+                "action_taken" : "Drink Water",
+                "reported_to_office" : "Yes",
                 "reported_by" : "Tom Riddle",
-                "investigation" : "",
-                "status" : ""
+                "investigation" : "No",
+                "status" : "Open"
               },{
                 "incident_time" : "2016-05-25T13:13:00.000Z",
                 "incident_category" : "Fall - Witnessed",
                 "incident_subcategory" : "",
-                "impacted_persons" : "",
-                "description" : "Description goes here",
-                "incident_location" : "",
-                "action_taken" : "",
-                "rpeorted_to_office" : "",
+                "impacted_persons" : "James Doe",
+                "description" : "Not Serious",
+                "incident_location" : "Stair",
+                "action_taken" : "Stand Up",
+                "reported_to_office" : "No",
                 "reported_by" : "Tom Riddle",
-                "investigation" : "",
-                "status" : ""
+                "investigation" : "No",
+                "status" : "Closed"
               },{
                 "incident_time" : "2016-05-22T13:32:00.000Z",
                 "incident_category" : "Other - G Tube Out",
                 "incident_subcategory" : "",
-                "impacted_persons" : "",
+                "impacted_persons" : "Marry Doe",
                 "description" : "Description goes here",
-                "incident_location" : "",
-                "action_taken" : "",
-                "rpeorted_to_office" : "",
+                "incident_location" : "Kitchen",
+                "action_taken" : "Deep Breath",
+                "reported_to_office" : "No",
                 "reported_by" : "Tom Riddle",
                 "investigation" : "",
-                "status" : ""
+                "status" : "Open"
               }
             ],
             "seizure_reports": [
               {
                 "time" : "2016-05-25T14:12:00.000Z",
-                "activity_prior_to_seizure" : "",
-                "duration_minutes" : "",
-                "duration_seconds" : "",
-                "activity_during_seize" : "",
-                "describe_movements" : "",
-                "describe_postural_changes" : "",
-                "descirbe_eye_deviation" : "",
-                "activity_after_seizure" : "",
-                "other_activity_after_seizure" : "",
+                "activity_prior_to_seizure" : "Drink too much water",
+                "duration_minutes" : "1",
+                "duration_seconds" : "10",
+                "activity_during_seize" : "Lip Smacking",
+                "describe_movements" : "Lip Keep Smacking",
+                "describe_postural_changes" : "Lay",
+                "descirbe_eye_deviation" : "show the whites of his eyes",
+                "activity_after_seizure" : "can not open his eyes",
+                "other_activity_after_seizure" : "refuse to drink water",
+                "notes" : "he looks like really nervous",
+                "reported_by" : "Tom Riddle",
+                "status" : "Open"
+              },{
+                "time" : "2016-05-22T13:32:00.000Z",
+                "activity_prior_to_seizure" : "talk nonsense",
+                "duration_minutes" : "10",
+                "duration_seconds" : "50",
+                "activity_during_seize" : "Crying Out",
+                "describe_movements" : "Crying from downstair to upstair",
+                "describe_postural_changes" : "keep running",
+                "descirbe_eye_deviation" : "look at everywhere",
+                "activity_after_seizure" : "sob",
+                "other_activity_after_seizure" : "drool",
                 "notes" : "",
                 "reported_by" : "Tom Riddle",
                 "status" : "Open"
               },{
                 "time" : "2016-05-22T13:32:00.000Z",
-                "activity_prior_to_seizure" : "",
-                "duration_minutes" : "",
-                "duration_seconds" : "",
-                "activity_during_seize" : "",
-                "describe_movements" : "",
-                "describe_postural_changes" : "",
-                "descirbe_eye_deviation" : "",
-                "activity_after_seizure" : "",
-                "other_activity_after_seizure" : "",
-                "notes" : "",
-                "reported_by" : "Tom Riddle",
-                "status" : "Open"
-              },{
-                "time" : "2016-05-22T13:32:00.000Z",
-                "activity_prior_to_seizure" : "",
-                "duration_minutes" : "",
-                "duration_seconds" : "",
-                "activity_during_seize" : "",
-                "describe_movements" : "",
-                "describe_postural_changes" : "",
-                "descirbe_eye_deviation" : "",
-                "activity_after_seizure" : "",
-                "other_activity_after_seizure" : "",
-                "notes" : "",
+                "activity_prior_to_seizure" : "keep laughing",
+                "duration_minutes" : "2",
+                "duration_seconds" : "30",
+                "activity_during_seize" : "Loss of Consciousness",
+                "describe_movements" : "hyperactivity",
+                "describe_postural_changes" : "keep changing posture",
+                "descirbe_eye_deviation" : "tic",
+                "activity_after_seizure" : "shiver",
+                "other_activity_after_seizure" : "crying",
+                "notes" : "he is very sad",
                 "reported_by" : "Adam Smith",
                 "status" : "Closed"
               }
@@ -135,7 +135,7 @@
               "goals": [
                 {
                   "goal_name" : "Goal # 1",
-                  "comment" : "",
+                  "comment" : "comment #1",
                   "active" : "true"
                 },
                 {
@@ -145,7 +145,7 @@
                 },
                 {
                   "goal_name" : "Goal # 3",
-                  "comment" : "",
+                  "comment" : "comment #3",
                   "active" : "true"
                 }
               ],
@@ -153,44 +153,44 @@
                 {
                   "action_type" : "Order",
                   "order_type": "Daily",
-                  "type": "",
-                  "subtype": "",
+                  "type": "type1",
+                  "subtype": "subtype1.1",
                   "type_description": "Daily, at 12:30",
                   "description": "order 02",
-                  "start_date": "",
-                  "end_date": "",
+                  "start_date": "2016-05-22T13:32:00.000Z",
+                  "end_date": "2017-05-22T13:32:00.000Z",
                   "repetition_type": "THIS IS A HUGE JSON STRUCTURE",
-                  "priority": ""
+                  "priority": "2"
                 },{
                   "action_type" : "Medication",
                   "order_type": "PRN",
-                  "type": "",
-                  "subtype": "",
+                  "type": "type2",
+                  "subtype": "subtype2.3",
                   "type_description": "PRN",
-                  "description": "",
-                  "start_date": "",
-                  "end_date": "",
+                  "description": "order 03",
+                  "start_date": "2000-01-01T00:00:00.000Z",
+                  "end_date": "2020-01-01T00:00:00.000Z",
                   "repetition_type": "THIS IS A HUGE JSON STRUCTURE",
-                  "priority": ""
+                  "priority": "3"
                 },{
                   "action_type" : "Medication",
                   "order_type": "Daily",
-                  "type": "",
-                  "subtype": "",
+                  "type": "type2",
+                  "subtype": "subtype2.1",
                   "type_description": "Daily, at 1:30 AM",
-                  "description": "",
-                  "start_date": "",
-                  "end_date": "",
+                  "description": "some description",
+                  "start_date": "2017-01-01T00:00:00.000Z",
+                  "end_date": "2018-01-01T00:00:00.000Z",
                   "repetition_type": "THIS IS A HUGE JSON STRUCTURE",
-                  "priority": ""
+                  "priority": "2"
                 }
               ],
               "medical_detail": {
                 "functional_limitations" : "Hearing, Endurance",
           			"activiteis_permitted": "Exercise Prescribed, Partial Weight Bearing, Crutches",
-          			"allergies": "",
-          			"nutrition": "",
-          			"safty_measures": ""
+          			"allergies": "flower",
+          			"nutrition": "protein",
+          			"safty_measures": "safe"
               }
             },
             "shifts": [
@@ -199,27 +199,27 @@
                 "status" : "Open",
                 "start_date" : "2016-11-12T07:00:00.000Z",
                 "end_date" : "2016-11-12T19:00:00.000Z",
-                "actual_start_date" : "",
-                "actual_end_date" : "",
+                "actual_start_date" : "2016-11-12T07:30:00.000Z",
+                "actual_end_date" : "2016-11-12T19:30:00.000Z",
                 "override_start_date" : "",
                 "override_end_date" : "",
                 "override_reason" : "",
                 "shift_type" : "Regular",
                 "agree_to_rate" : "",
-                "staff_signature" : "",
-                "client_signature" : "",
+                "staff_signature" : "Tim Riddle",
+                "client_signature" : "client 1",
                 "client_unable_to_sign " : "",
                 "client_unanle_to_sign_reason" : "",
-                "duration" : "",
-                "notes": [],
+                "duration" : "30",
+                "notes": ["note notes notes"],
                 "expenses": [
                   {
-                    "amount" : "",
-                    "mileage_amount" : "",
-                    "mileage_unit_price" : "",
-                    "type" : "",
-                    "date" : "",
-                    "notes" : ""
+                    "amount" : "30",
+                    "mileage_amount" : "100",
+                    "mileage_unit_price" : "0.3",
+                    "type" : "Mileage",
+                    "date" : "2017-11-12T07:00:00.000Z",
+                    "notes" : "drive to XXX"
                   }
                 ]
       				},{
@@ -227,39 +227,57 @@
                 "status" : "Closed",
                 "start_date" : "2016-05-25T12:30:00.000Z",
                 "end_date" : "2016-11-12T21:00:00.000Z",
-                "actual_start_date" : "",
-                "actual_end_date" : "",
-                "override_start_date" : "",
-                "override_end_date" : "",
-                "override_reason" : "",
+                "actual_start_date" : "2016-06-25T12:30:00.000Z",
+                "actual_end_date" : "2016-12-12T21:00:00.000Z",
+                "override_start_date" : "2016-07-25T12:30:00.000Z",
+                "override_end_date" : "2017-01-12T21:00:00.000Z",
+                "override_reason" : "surgery",
                 "shift_type" : "Regular",
                 "agree_to_rate" : "",
-                "staff_signature" : "",
-                "client_signature" : "",
+                "staff_signature" : "Tom Riddle",
+                "client_signature" : "Paul Doe",
                 "client_unable_to_sign " : "",
                 "client_unanle_to_sign_reason" : "",
                 "duration" : "",
-                "notes": [],
-                "expenses": []
+                "notes": ["no"],
+                "expenses": [
+                  {
+                  "amount" : "300",
+                  "mileage_amount" : "",
+                  "mileage_unit_price" : "",
+                  "type" : "Adjustment",
+                  "date" : "2017-11-12T07:00:00.000Z",
+                  "notes" : "flight"
+                }
+              ]
       				},{
       					"assigned_user_id" : "Adam Smith",
                 "status" : "Closed",
                 "start_date" : "2016-05-22T07:00:00.000Z",
                 "end_date" : "2016-05-22T19:00:00.000Z",
-                "actual_start_date" : "",
-                "actual_end_date" : "",
-                "override_start_date" : "",
-                "override_end_date" : "",
-                "override_reason" : "",
+                "actual_start_date" : "2017-11-05-22T07:00:00.000Z",
+                "actual_end_date" : "2017-11-22T19:00:00.000Z",
+                "override_start_date" : "2017-11-05-22T07:00:00.000Z",
+                "override_end_date" : "2017-11-22T19:00:00.000Z",
+                "override_reason" : "client request",
                 "shift_type" : "Visit",
                 "agree_to_rate" : "",
-                "staff_signature" : "",
+                "staff_signature" : "Adam Smith",
                 "client_signature" : "",
-                "client_unable_to_sign " : "",
-                "client_unanle_to_sign_reason" : "",
-                "duration" : "",
+                "client_unable_to_sign " : "Yes",
+                "client_unanle_to_sign_reason" : "Hand Shake",
+                "duration" : "30",
                 "notes": [],
-                "expenses": []
+                "expenses": [
+                  {
+                "amount" : "50",
+                "mileage_amount" : "",
+                "mileage_unit_price" : "",
+                "type" : "Other",
+                "date" : "2016-11-12T07:00:00.000Z",
+                "notes" : "Lunch"
+              }
+            ]
       				}
       			]
         }
@@ -321,7 +339,7 @@
                 "description" : "Description goes here",
                 "incident_location" : "",
                 "action_taken" : "",
-                "rpeorted_to_office" : "",
+                "reported_to_office" : "",
                 "reported_by" : "Tom Riddle",
                 "investigation" : "",
                 "status" : ""
@@ -333,7 +351,7 @@
                 "description" : "Description goes here",
                 "incident_location" : "",
                 "action_taken" : "",
-                "rpeorted_to_office" : "",
+                "reported_to_office" : "",
                 "reported_by" : "Tom Riddle",
                 "investigation" : "",
                 "status" : ""
@@ -345,7 +363,7 @@
                 "description" : "Description goes here",
                 "incident_location" : "",
                 "action_taken" : "",
-                "rpeorted_to_office" : "",
+                "reported_to_office" : "",
                 "reported_by" : "Tom Riddle",
                 "investigation" : "",
                 "status" : ""
@@ -579,7 +597,7 @@
                 "description" : "Description goes here",
                 "incident_location" : "",
                 "action_taken" : "",
-                "rpeorted_to_office" : "",
+                "reported_to_office" : "",
                 "reported_by" : "Tom Riddle",
                 "investigation" : "",
                 "status" : ""
@@ -591,7 +609,7 @@
                 "description" : "Description goes here",
                 "incident_location" : "",
                 "action_taken" : "",
-                "rpeorted_to_office" : "",
+                "reported_to_office" : "",
                 "reported_by" : "Tom Riddle",
                 "investigation" : "",
                 "status" : ""
@@ -603,7 +621,7 @@
                 "description" : "Description goes here",
                 "incident_location" : "",
                 "action_taken" : "",
-                "rpeorted_to_office" : "",
+                "reported_to_office" : "",
                 "reported_by" : "Tom Riddle",
                 "investigation" : "",
                 "status" : ""
