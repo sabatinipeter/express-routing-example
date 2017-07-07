@@ -136,17 +136,17 @@
                 {
                   "goal_name" : "Goal # 1",
                   "comment" : "comment #1",
-                  "active" : "true"
+                  "active" : true
                 },
                 {
                   "goal_name" : "Goal # 2",
                   "comment" : "The Second Line",
-                  "active" : "false"
+                  "active" : false
                 },
                 {
                   "goal_name" : "Goal # 3",
                   "comment" : "comment #3",
-                  "active" : "true"
+                  "active" : true
                 }
               ],
               "actions": [
@@ -211,7 +211,20 @@
                 "client_unable_to_sign " : "",
                 "client_unable_to_sign_reason" : "",
                 "duration" : "30",
-                "notes": ["note notes notes"],
+                "notes": [
+                  {
+                    "note": "shift note by Tim Riddle",
+                    "created_dtm" : "2017-06-02T07:00:00.000Z"
+                  },
+                  {
+                    "note": "Shift Uncompleted",
+                    "created_dtm" : "2017-06-03T07:00:00.000Z"
+                  },
+                  {
+                    "note": "Shift Done",
+                    "created_dtm" : "2017-06-04T07:00:00.000Z"
+                  }
+              ],
                 "expenses": [
                   {
                     "amount" : "30",
@@ -239,7 +252,20 @@
                 "client_unable_to_sign " : "",
                 "client_unable_to_sign_reason" : "",
                 "duration" : "",
-                "notes": ["no"],
+                "notes": [
+                  {
+                    "note": "I'm shift note 3",
+                    "created_dtm" : "2017-06-02T07:00:00.000Z"
+                  },
+                  {
+                    "note": "note2",
+                    "created_dtm" : "2017-06-03T07:00:00.000Z"
+                  },
+                  {
+                    "note": "Apple Pie",
+                    "created_dtm" : "2017-06-04T07:00:00.000Z"
+                  }
+                ],
                 "expenses": [
                   {
                   "amount" : "300",
@@ -267,7 +293,20 @@
                 "client_unable_to_sign " : "Yes",
                 "client_unable_to_sign_reason" : "Hand Shake",
                 "duration" : "30",
-                "notes": [],
+                "notes": [
+                  {
+                    "note": "WillowTree",
+                    "created_dtm" : "2017-06-02T07:00:00.000Z"
+                  },
+                  {
+                    "note": "Apple",
+                    "created_dtm" : "2017-06-03T07:00:00.000Z"
+                  },
+                  {
+                    "note": "Banana Pie",
+                    "created_dtm" : "2017-06-04T07:00:00.000Z"
+                  }
+                ],
                 "expenses": [
                   {
                 "amount" : "50",
@@ -419,17 +458,17 @@
                 {
                   "goal_name" : "Goal # 21",
                   "comment" : "comment 21",
-                  "active" : "true"
+                  "active" : true
                 },
                 {
                   "goal_name" : "Goal # 22",
                   "comment" : "The Second Line 22",
-                  "active" : "false"
+                  "active" : false
                 },
                 {
                   "goal_name" : "Goal # 23",
                   "comment" : "comment 23",
-                  "active" : "true"
+                  "active" : true
                 }
               ],
               "actions": [
@@ -494,7 +533,20 @@
                 "client_unable_to_sign " : "",
                 "client_unable_to_sign_reason" : "",
                 "duration" : "50",
-                "notes": ["hahahaha"],
+                "notes": [
+                  {
+                    "note": "Bus123",
+                    "created_dtm" : "2017-06-02T07:00:00.000Z"
+                  },
+                  {
+                    "note": "some description",
+                    "created_dtm" : "2017-06-03T07:00:00.000Z"
+                  },
+                  {
+                    "note": "test note",
+                    "created_dtm" : "2017-06-04T07:00:00.000Z"
+                  }
+                ],
                 "expenses": [
                   {
                     "amount" : "3000",
@@ -522,7 +574,20 @@
                 "client_unable_to_sign " : "",
                 "client_unable_to_sign_reason" : "",
                 "duration" : "10",
-                "notes": [],
+                "notes": [
+                  {
+                    "note": "Kroger",
+                    "created_dtm" : "2017-06-02T07:00:00.000Z"
+                  },
+                  {
+                    "note": "This is note",
+                    "created_dtm" : "2017-06-03T07:00:00.000Z"
+                  },
+                  {
+                    "note": "hahaha",
+                    "created_dtm" : "2017-06-04T07:00:00.000Z"
+                  }
+                ],
                 "expenses": [
                   {
                   "amount" : "30",
@@ -550,7 +615,20 @@
                 "client_unable_to_sign " : "",
                 "client_unable_to_sign_reason" : "",
                 "duration" : "15",
-                "notes": ["No Notes"],
+                "notes": [
+                  {
+                    "note": "Today is Sunday",
+                    "created_dtm" : "2017-06-02T07:00:00.000Z"
+                  },
+                  {
+                    "note": "Eat some Chocolate",
+                    "created_dtm" : "2017-06-03T07:00:00.000Z"
+                  },
+                  {
+                    "note": "lalalalala",
+                    "created_dtm" : "2017-06-04T07:00:00.000Z"
+                  }
+                ],
                 "expenses": [{
                   "amount" : "700",
                   "mileage_amount" : "",
@@ -693,17 +771,17 @@
                 {
                   "goal_name" : "Goal # 31",
                   "comment" : "comments 31",
-                  "active" : "true"
+                  "active" : true
                 },
                 {
                   "goal_name" : "Goal # 32",
                   "comment" : "The Second Line 32",
-                  "active" : "false"
+                  "active" : false
                 },
                 {
                   "goal_name" : "Goal # 33",
                   "comment" : "comment 33",
-                  "active" : "true"
+                  "active" : true
                 }
               ],
               "actions": [
@@ -768,7 +846,20 @@
                 "client_unable_to_sign " : "",
                 "client_unable_to_sign_reason" : "",
                 "duration" : "19",
-                "notes": ["he is hungry"],
+                "notes": [
+                  {
+                    "note": "hungry",
+                    "created_dtm" : "2017-06-02T07:00:00.000Z"
+                  },
+                  {
+                    "note": "no note here",
+                    "created_dtm" : "2017-06-03T07:00:00.000Z"
+                  },
+                  {
+                    "note": "do not know what to write",
+                    "created_dtm" : "2017-06-04T07:00:00.000Z"
+                  }
+                ],
                 "expenses": [
                   {
                     "amount" : "90",
@@ -796,7 +887,20 @@
                 "client_unable_to_sign " : "",
                 "client_unable_to_sign_reason" : "",
                 "duration" : "02",
-                "notes": ["lalala"],
+                "notes": [
+                  {
+                    "note": "note again",
+                    "created_dtm" : "2017-06-02T07:00:00.000Z"
+                  },
+                  {
+                    "note": "why there are so many note",
+                    "created_dtm" : "2017-06-03T07:00:00.000Z"
+                  },
+                  {
+                    "note": "again again again",
+                    "created_dtm" : "2017-06-04T07:00:00.000Z"
+                  }
+                ],
                 "expenses": [
                   {
                   "amount" : "90",
@@ -824,7 +928,20 @@
                 "client_unable_to_sign " : "yes",
                 "client_unable_to_sign_reason" : "do not want to sign",
                 "duration" : "59",
-                "notes": ["ha ha ha"],
+                "notes": [
+                  {
+                    "note": "my name is note",
+                    "created_dtm" : "2017-06-02T07:00:00.000Z"
+                  },
+                  {
+                    "note": "note is my sister",
+                    "created_dtm" : "2017-06-03T07:00:00.000Z"
+                  },
+                  {
+                    "note": "The Last Note",
+                    "created_dtm" : "2017-06-04T07:00:00.000Z"
+                  }
+                ],
                 "expenses": [
                   {
                 "amount" : "600",
