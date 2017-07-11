@@ -157,7 +157,7 @@
                   "type": "type1",
                   "subtype": "subtype1.1",
                   "type_description": "Daily, at 12:30",
-                  "description": "order 02",
+                  "description": "50 min running",
                   "start_date": "2016-05-22T13:32:00.000Z",
                   "end_date": "2017-05-22T13:32:00.000Z",
                   "repetition_type": "THIS IS A HUGE JSON STRUCTURE",
