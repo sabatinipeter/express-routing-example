@@ -36,6 +36,7 @@
       "cases": [
         {
             "id": "324654567",
+            "mr_number": "MR0001-HHA",
             "case_type": "type 3",
             "notes": [
               {
@@ -361,6 +362,7 @@
       "cases": [
         {
             "id": "121312321321",
+            "mr_number": "MR0001-HHA",
             "case_type": "case type 1",
             "notes": [
               {
@@ -677,6 +679,7 @@
       "cases": [
         {
             "id": "121312321321",
+            "mr_number": "MR0001-HHA",
             "case_type": "case1",
             "notes": [
               {
