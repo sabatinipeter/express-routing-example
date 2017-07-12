@@ -162,7 +162,20 @@
                   "end_date": "2017-05-22T13:32:00.000Z",
                   "repetition_type": "THIS IS A HUGE JSON STRUCTURE",
                   "priority": "2"
-                },{
+                },
+                {
+                  "action_type": "Order",
+                  "order_type": "Appointment",
+                  "type": "Bathe",
+                  "subtype": "Null",
+                  "type_description": "Appointment, at 2:30 PM",
+                  "description": "Carecheck - order - 007",
+                  "start_date": "2016-05-22T13:32:00.000Z",
+                  "end_date": "2017-05-22T13:32:00.000Z",
+                  "repetition_type": "THIS IS A HUGE JSON STRUCTURE",
+                  "priority": "2"
+                },
+                {
                   "action_type" : "Medication",
                   "order_type": "PRN",
                   "type": "type2",
